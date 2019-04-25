@@ -1,0 +1,29 @@
+
+#idWrapper {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    
+}
+
+#idWrapper button{
+    border: 1px solid black;
+}
+
+#idEquals {
+    grid-column-start: span 3;
+}
+
+#idDisplay {
+    border: 1px solid black;
+    grid-column-start: span 4;
+}
+
+.clNum {
+    background-color:orange;
+}
+
+.clOp {
+    background-color: lightgray;
+}
